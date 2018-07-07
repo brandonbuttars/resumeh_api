@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "link",
+  "info": {
+    "name": "link",
+    "description": "Links that should be included like social networks and stuff like that."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "links",
+      "dominant": true
+    }
+  }
+}

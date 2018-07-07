@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "portfolio",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "file": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "portfolios",
+      "dominant": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

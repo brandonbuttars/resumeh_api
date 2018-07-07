@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "experience",
+    "description": "Career experience."
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "start": {
+      "type": "integer",
+      "required": true
+    },
+    "end": {
+      "type": "integer"
+    },
+    "current": {
+      "type": "boolean"
+    },
+    "position": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "order": {
+      "default": 1,
+      "type": "integer",
+      "required": true
+    }
+  }
+}

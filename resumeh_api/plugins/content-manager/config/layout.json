@@ -1,0 +1,102 @@
+{
+  "content": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "body": {
+        "appearance": "WYSIWYG"
+      },
+      "order": {
+        "appearance": ""
+      }
+    }
+  },
+  "experience": {
+    "attributes": {
+      "company": {
+        "appearance": ""
+      },
+      "start": {
+        "appearance": ""
+      },
+      "end": {
+        "appearance": ""
+      },
+      "current": {
+        "appearance": ""
+      },
+      "position": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": "WYSIWYG"
+      },
+      "order": {
+        "appearance": ""
+      }
+    }
+  },
+  "technology": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "level": {
+        "appearance": ""
+      },
+      "link": {
+        "appearance": ""
+      }
+    }
+  },
+  "education": {
+    "attributes": {
+      "institution": {
+        "appearance": ""
+      },
+      "start": {
+        "appearance": ""
+      },
+      "end": {
+        "appearance": ""
+      },
+      "current": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": "WYSIWYG"
+      },
+      "emphasis": {
+        "appearance": ""
+      },
+      "order": {
+        "appearance": ""
+      }
+    }
+  },
+  "tag": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "portfolio": {
+    "attributes": {
+      "description": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  },
+  "link": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "url": {
+        "appearance": ""
+      }
+    }
+  }
+}

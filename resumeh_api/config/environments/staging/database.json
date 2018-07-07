@@ -1,0 +1,21 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-mongoose",
+      "settings": {
+        "client": "mongo",
+        "uri": "",
+        "host": "127.0.0.1",
+        "port": "27017",
+        "database": "resumeh_staging",
+        "username": "",
+        "password": ""
+      },
+      "options": {
+        "ssl": "false",
+        "authenticationDatabase": ""
+      }
+    }
+  }
+}
